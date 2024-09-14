@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+    'a a  b b b b b b b b c c'
+    ;
+    justify-items: center;
+    align-items: center;   
+    padding: 15px;
+}
+.logo{
+    grid-area: a;
+    
+}
+.nav-menu{
+    display: flex;
+    grid-area: b;
+ 
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.nav-menu ul li{
+    display: inline-block;
+    
+    
+}
+
+.contact_form{
+    display: flex;
+    grid-area: c;
+}
+
+.contact_form ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.contact_form ul li{
+    display: inline-block;
+    color:#d98473;
+}
+
+.first-slide{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+    justify-items: center;
+    align-items: center;
+    background-image: url(images/banner-bg.png) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin-top: -100px;
+    
+}
+
+.first-slide h1{
+    width: 100%;
+    font-size: 90px;
+    color:#252525;
+    font-weight: 800;
+    height: 60px;
+}
+
+.first-slide h5{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color:#e38773;
+    font-weight: bold;
+    height: 5px;
+}
+.first-slide p{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color:#4a4949;
+   margin:0px; 
+
+}
+.first-slide .about-us{
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: #e38773;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.first-slide .call-now{
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: #252525;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
