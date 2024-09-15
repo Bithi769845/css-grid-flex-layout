@@ -111,3 +111,108 @@ body{
     color: antiquewhite;
 }
 
+.offer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.offer h1{
+    height: 35px;
+    font-size: 40px;
+    color:#3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offer .bulit-icon{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.offer-item{
+    text-align: center;
+   
+} 
+.offer-item h5 {
+font-size: 22px;
+color:#3b3b3b;
+ font-weight: bold;
+ margin: 0px;
+ padding:0px;
+ margin-top: 10px;
+ text-transform: uppercase;
+ 
+}
+
+.offer-item p{
+    font-size: 16px;
+    color:#3b3b3b;
+  
+}
+
+.offer-item .offer-read-more{
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: rgb(255, 255, 255);
+    border:1px solid #e38773;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #e38773;
+    text-transform: uppercase;
+    transition: border-color 1s, color 1s;
+}
+
+.offer-item .offer-read-more:hover{
+    border-color: #3b3b3b;
+    color: #3b3b3b;
+}
+
+.offer-item img{
+    width: 100%;
+    height: auto;
+}
+
+.our-shop h1{
+    height: 35px;
+    font-size: 40px;
+    color:#3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.our-shop .bulit-icon{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.our-shop-container{
+   width: 85%;
+   margin: auto;
+   
+}
+.our-shop .about-image{
+    position:absolute;
+ 
+  
+}
+
+.our-shop .about-image img{
+width: 100%;
+height: 400px;
+}
+
+
+
+.our-shop .about-coffe-distribution{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 5px 10px 18px #888888;
+   padding:30px;
+   position: relative;
+   margin-top: 70px;
+}
