@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
 
 }
@@ -109,10 +109,13 @@ body {
     transition: background-color 2s;
 }
 
+<<<<<<< HEAD
 .first-slide .about-us:hover {
     background-color: #252525;
 }
 
+=======
+>>>>>>> 34fc6e8748c8c082e41647333973009d73cb5276
 .first-slide .call-now {
     margin-top: 15px;
     padding: 15px 30px;
@@ -126,6 +129,7 @@ body {
 .offer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+<<<<<<< HEAD
     gap: 5px;
     text-align: center;
 }
@@ -181,3 +185,521 @@ body {
     border-color: #4a4949;
     color: #4a4949;
 }
+=======
+    gap: 20px;
+}
+
+.offer h1 {
+    height: 35px;
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offer .bulit-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.offer-item {
+    text-align: center;
+
+}
+
+.offer-item h5 {
+    font-size: 22px;
+    color: #3b3b3b;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+
+.offer-item p {
+    font-size: 16px;
+    color: #3b3b3b;
+
+}
+
+.offer-item .offer-read-more {
+    margin-top: 15px;
+    padding: 15px 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e38773;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #e38773;
+    text-transform: uppercase;
+    transition: border-color 1s, color 1s;
+}
+
+.offer-item .offer-read-more:hover {
+    border-color: #3b3b3b;
+    color: #3b3b3b;
+}
+
+.offer-item img {
+    width: 100%;
+    height: auto;
+}
+
+.our-shop h1 {
+    height: 35px;
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-shop .bulit-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.our-shop-container {
+    width: 85%;
+    margin: auto;
+
+}
+
+.our-shop .about-image {
+    padding-left: 250px;
+    position: relative;
+
+
+}
+
+.our-shop .about-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.our-shop .about-coffe-distribution {
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 40px 20px 30px 20px;
+    margin-top: 70px;
+    position: absolute;
+    top: 1300px;
+
+
+}
+
+.about-coffe-distribution h5 {
+    font-size: 30px;
+    color: #3b3b3b;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.about-coffe-distribution p {
+    font-size: 18px;
+    color: #232222;
+    margin: 0px;
+    margin-bottom: 25px;
+    line-height: 2rem;
+
+}
+
+.about-coffe-distribution .offer-read-more {
+    font-size: 18px;
+    color: #d78373;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #fc947f;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffff;
+}
+
+
+.customer-says{
+    background-image: url(images/client-bg.png);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    height: auto;
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+}
+
+.customer-says-whole{
+    padding-top: 50px;
+}
+
+.customer-says-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   padding-left: 150px;
+   padding-right:100px;
+   gap:20px;
+}
+
+.customer-says h1{
+    height: 35px;
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.customer-says .bulit-icon{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+}
+
+.customer-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+  gap: 100px;
+}
+.customer-content h5{
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+.customer-content p{
+    font-size: 16px;
+    color: #3b3b3b;
+    line-height: 1.5rem;
+    margin: 0px;
+    width: 75%;
+}
+.customer-container .customer-image{
+    grid-column: 1/3;
+}
+.customer-container .customer-content{
+    grid-column: 3/12;
+}
+
+
+.our-blog h1 {
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.our-blog .bulit-icon {
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+.our-blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.our-blog-flex {
+    display: flex;
+    gap: 50px;
+        padding: 50px;
+   
+}
+
+.our-blog .blog-box {
+    width: 100%;
+    position: relative;
+}
+
+.our-blog .blog-content {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px;
+    padding: 0px 0px 30px 0px;   
+}
+
+
+
+.our-blog .blog-img img {
+    width: 100%;
+   
+}
+
+.blog-box h4 {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0;
+    width: 100px;
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    border-radius: 5px;
+}
+
+.blog-box h2 {
+    font-size: 20px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0 15px;
+    padding: 0px 20px;
+}
+
+.blog-box p {
+    font-size: 14px;
+    color: #3b3b3b;
+    margin: 0px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    line-height: 1.5rem;
+    
+}
+
+.blog-button {
+    text-align: center;
+}
+
+.blog-box .blog-button button {
+    font-size: 18px;
+    color: #d78373;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #fc947f;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+
+.blog-box .blog-button button:hover {
+    border-color: #3b3b3b;
+    color: #3b3b3b;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+   
+    padding: 20px;
+    border-radius: 8px;  
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.container .bulit-icon{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group {
+    display: grid;
+}
+
+#name,#email,#phone{
+    border-radius: 20px;
+    background-color:#efefef ;
+    padding: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color:#efefef ;
+    
+}
+
+input::placeholder, 
+textarea::placeholder {
+    color: #2e2e2d;
+}
+
+textarea {
+    padding: 60px 10px; 
+    height: 150px;         
+    resize: vertical;
+}
+
+.container .send{
+    text-align: center;
+}
+
+.container button {
+    background-color: #d07d6b;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;   
+    cursor: pointer;
+    width:25%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+button:hover {
+    background-color: #3b3b3b;
+}
+
+
+.address {
+    position: relative;
+    background-image: url(images/img-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center; 
+    font-size: 18px; 
+    z-index: 1;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212529;
+    opacity: 0.8;
+    z-index: -1; 
+}
+
+
+.mail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.address h1{
+    padding: 20px;
+}
+.address p{
+    padding: 50px;
+}
+
+.contact-item{
+    margin-top: 15px;
+}
+
+#mail{
+   padding: 20px; 
+   width: 450px;
+}
+
+.subscribe_bt{
+    margin-top: -8px;
+}
+
+.subscribe_bt a {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #d07d6b;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+
+
+.copy-right-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d07d6b;
+    
+}
+
+.copyright-text{
+    font-size: 16px;
+    color:white;
+
+}
+
+
+.copy-right{
+    background-color: #d07d6b;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;  
+   height: 80px;    
+}
+
+
+.copy-right-socialIcon ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+    
+}
+
+.copy-right-socialIcon li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+
+
+
+
+
+
+>>>>>>> 34fc6e8748c8c082e41647333973009d73cb5276
