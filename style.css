@@ -9,9 +9,7 @@ body {
 .navbar {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-        'a a  b b b b b b b b c c'
-    ;
+    grid-template-areas: 'a a a b b b b b b c c c';
     justify-items: center;
     align-items: center;
     padding: 15px;
@@ -19,26 +17,22 @@ body {
 
 .logo {
     grid-area: a;
-
 }
 
 .nav-menu {
     display: flex;
     grid-area: b;
-
 }
 
 .nav-menu ul {
     display: flex;
     list-style: none;
     gap: 20px;
-
 }
 
 .nav-menu ul li {
     display: inline-block;
-
-
+    font-size: 20px;
 }
 
 .contact_form {
@@ -57,22 +51,41 @@ body {
     color: #d98473;
 }
 
-.first-slide {
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
-    background-image: url(images/banner-bg.png);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -100px;
-
+.hamburger {
+    display: none;
+    cursor: pointer;
 }
 
-.first-slide h1 {
+.hamburger i {
+    font-size: 24px;
+}
+
+
+.slide{
+    background-image: url(images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin-top: -106px;
+}
+
+.slide-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+.slide-container .slide-right img{
+width: 100%;
+height: 100%;
+}
+.slide-container > div{
+    margin-top: 50px;
+   
+}
+
+
+.slide-container h1 {
     width: 100%;
     font-size: 90px;
     color: #252525;
@@ -80,7 +93,7 @@ body {
     height: 60px;
 }
 
-.first-slide h5 {
+.slide-container h5 {
     width: 100%;
     float: left;
     font-size: 24px;
@@ -89,7 +102,7 @@ body {
     height: 5px;
 }
 
-.first-slide p {
+.slide-container p {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -98,7 +111,7 @@ body {
 
 }
 
-.first-slide .about-us {
+.slide-container .about-us {
     margin-top: 15px;
     padding: 15px 30px;
     background-color: #e38773;
@@ -113,7 +126,7 @@ body {
     background-color: #252525;
 }
 
-.first-slide .call-now {
+.slide-container .call-now {
     margin-top: 15px;
     padding: 15px 30px;
     background-color: #252525;
@@ -123,7 +136,7 @@ body {
     color: antiquewhite;
 }
 
-.offer-container {
+/* .offer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -634,7 +647,7 @@ button:hover {
     padding: 10px;
     border-radius: 25px;
     
-}
+} */
 
 
 
