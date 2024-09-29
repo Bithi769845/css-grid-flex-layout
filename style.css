@@ -6,6 +6,8 @@ body {
 
 }
 
+/* Navbar section start */
+
 .navbar {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -60,6 +62,7 @@ body {
     font-size: 24px;
 }
 
+/* slide section start */
 
 .slide{
     background-image: url(images/banner-bg.png);
@@ -136,10 +139,15 @@ height: 100%;
     color: antiquewhite;
 }
 
-/* .offer-container {
+/* start offer section */
+
+.offer-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     gap: 20px;
+    
+    padding: 0px 30px 0px 30px;
+    
 }
 
 .offer h1 {
@@ -179,7 +187,7 @@ height: 100%;
 
 }
 
-.offer-item .offer-read-more {
+.offer-item .read-more {
     margin-top: 15px;
     padding: 15px 30px;
     background-color: rgb(255, 255, 255);
@@ -191,7 +199,7 @@ height: 100%;
     transition: border-color 1s, color 1s;
 }
 
-.offer-item .offer-read-more:hover {
+.offer-item .read-more:hover {
     border-color: #3b3b3b;
     color: #3b3b3b;
 }
@@ -199,6 +207,48 @@ height: 100%;
 .offer-item img {
     width: 100%;
     height: auto;
+}
+
+/* start our shop section */
+
+
+.our-shop {
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.our-shop-container {
+    display: grid;
+    position: relative; 
+    margin-top:5%; 
+}
+
+.about-image, .about-coffe-distribution {
+    grid-area: 1 / 1; 
+}
+
+.about-image img {
+    max-width: 100%; 
+    height: auto;
+    margin-left: 100px;
+}
+
+.about-coffe-distribution {
+    position: absolute; 
+    top: 50%; 
+    left: 20%;
+    transform: translate(-50%, -50%);
+    max-width: 50%; 
+    background-color: #fff;
+    box-shadow: 5px 10px 18px #888888;
+    padding:40px 20px 30px 20px;
+    text-align: left;
+   
+    z-index: 2; 
+}
+
+.about-image {
+    z-index: 1; 
 }
 
 .our-shop h1 {
@@ -216,9 +266,57 @@ height: 100%;
     margin-bottom: 10px;
 }
 
+.about-coffe-distribution h5 {
+    font-size: 30px;
+    color: #3b3b3b;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.about-coffe-distribution p {
+    font-size: 16px;
+    color: #232222;
+    margin: 0px;
+    margin-bottom: 25px;
+    line-height: 2rem;
+    
+
+}
+
+
+
+.about-coffe-distribution .offer-read-more {
+    font-size: 18px;
+    color: #d78373;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #fc947f;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffff;
+}
+
+
+/* .our-shop h1 {
+    height: 35px;
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-shop .bulit-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
 .our-shop-container {
     width: 85%;
     margin: auto;
+   
 
 }
 
@@ -242,9 +340,9 @@ height: 100%;
     background-color: #fff;
     box-shadow: 5px 10px 18px #888888;
     padding: 40px 20px 30px 20px;
-    margin-top: 70px;
+   
     position: absolute;
-    top: 1300px;
+    top: 1370px;
 
 
 }
@@ -275,9 +373,9 @@ height: 100%;
     border-radius: 5px;
     text-align: center;
     background-color: #ffff;
-}
+} */
 
-
+/* customer section start */
 .customer-says{
     background-image: url(images/client-bg.png);
     height: auto;
@@ -647,7 +745,7 @@ button:hover {
     padding: 10px;
     border-radius: 25px;
     
-} */
+} 
 
 
 
