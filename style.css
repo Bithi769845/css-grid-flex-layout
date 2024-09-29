@@ -109,13 +109,10 @@ body {
     transition: background-color 2s;
 }
 
-<<<<<<< HEAD
 .first-slide .about-us:hover {
     background-color: #252525;
 }
 
-=======
->>>>>>> 34fc6e8748c8c082e41647333973009d73cb5276
 .first-slide .call-now {
     margin-top: 15px;
     padding: 15px 30px;
@@ -129,63 +126,6 @@ body {
 .offer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-<<<<<<< HEAD
-    gap: 5px;
-    text-align: center;
-}
-
-
-
-.offer-main h1 {
-    width: 100%;
-    font-size: 40px;
-    color: #3b3b3b;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    height: 25px;
-
-}
-
-.offer img {
-    width: 320px;
-    height: auto;
-}
-
-.offer h5 {
-    width: 100%;
-
-    font-size: 22px;
-    color: #3b3b3b;
-    font-weight: bold;
-    height: 5px;
-
-}
-
-.offer p {
-    width: 100%;
-
-    font-size: 16px;
-    color: #4a4949;
-    margin: 0px;
-}
-
-.offer .read-more {
-    margin-top: 15px;
-    padding: 15px 30px;
-    background-color: #ffffff;
-    border: #e38773 1px solid;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    color: #e38773;
-    transition: border-color 1s, color 1s;
-}
-
-.offer .read-more:hover {
-    border-color: #4a4949;
-    color: #4a4949;
-}
-=======
     gap: 20px;
 }
 
@@ -702,4 +642,3 @@ button:hover {
 
 
 
->>>>>>> 34fc6e8748c8c082e41647333973009d73cb5276
