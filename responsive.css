@@ -218,7 +218,7 @@
 
 }
 
-
+/* tablet */
 @media (min-width: 768px) and (max-width: 991px)  {
     .our-shop {
 
@@ -260,7 +260,7 @@
     }
 
     .about-image  {
-        max-width: 100%; 
+        max-width: 80%; 
         height: 370px;
        
     }
@@ -273,6 +273,95 @@
   
     
 }
+/* customer says start */
+/* mobile */
+@media (max-width: 480px) {
+    .customer-says {
+        background-image: none;
+        margin-top: 130%;
+        background-color: #ffc4b8;
+        background-size: cover;
+    }
+
+    .customer-says-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    
+    .customer-container {
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        min-width: 200px;
+        flex-wrap: nowrap;
+        gap:0px;
+       
+    }
+
+    .customer-content{
+        margin-top: -20px;
+    }
+
+    .customer-says h1 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* tablet */
+@media (min-width:481px) and (max-width: 768px)  {
+    .customer-says {
+       
+        background-image: url(images/client-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 50px;
+        margin-top: 100px;
+        height: auto;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .customer-container {
+        gap:100px;
+    }
+
+    .customer-container .content-text{
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width:425px) and (max-width: 480px) {
+
+    #mail{
+        padding: 20px; 
+        width: 200px;
+     }
+
+
+   
+     .copyright-text{
+        order: 5;
+     }
+
+     .copy-right-container{
+        font-size: 0.9rem;
+     }
+
+
+}
+
+
+
+
+
+
+
 
 
 

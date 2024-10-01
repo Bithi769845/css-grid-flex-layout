@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
+    width:100%;
 
 }
 
@@ -202,6 +203,7 @@ height: 100%;
 .offer-item .read-more:hover {
     border-color: #3b3b3b;
     color: #3b3b3b;
+    
 }
 
 .offer-item img {
@@ -285,7 +287,7 @@ height: 100%;
 
 
 
-.about-coffe-distribution .offer-read-more {
+.about-coffe-distribution .shop-read-more {
     font-size: 18px;
     color: #d78373;
     text-transform: uppercase;
@@ -297,152 +299,85 @@ height: 100%;
     background-color: #ffff;
 }
 
-
-/* .our-shop h1 {
-    height: 35px;
-    font-size: 40px;
+.shop-read-more:hover {
+    border-color: #3b3b3b;
     color: #3b3b3b;
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.our-shop .bulit-icon {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-.our-shop-container {
-    width: 85%;
-    margin: auto;
-   
-
-}
-
-.our-shop .about-image {
-    padding-left: 250px;
-    position: relative;
-
-
-}
-
-.our-shop .about-image img {
-    width: 100%;
-    height: auto;
-}
-
-
-
-.our-shop .about-coffe-distribution {
-    width: 500px;
-    height: auto;
-    background-color: #fff;
-    box-shadow: 5px 10px 18px #888888;
-    padding: 40px 20px 30px 20px;
-   
-    position: absolute;
-    top: 1370px;
-
-
-}
-
-.about-coffe-distribution h5 {
-    font-size: 30px;
-    color: #3b3b3b;
-    margin: 0px;
-    margin-bottom: 15px;
-}
-
-.about-coffe-distribution p {
-    font-size: 18px;
-    color: #232222;
-    margin: 0px;
-    margin-bottom: 25px;
-    line-height: 2rem;
-
-}
-
-.about-coffe-distribution .offer-read-more {
-    font-size: 18px;
-    color: #d78373;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: 1px solid #fc947f;
-    padding: 15px 20px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #ffff;
-} */
-
-/* customer section start */
-.customer-says{
-    background-image: url(images/client-bg.png);
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 100px;
-    height: auto;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
-}
-
-.customer-says-whole{
-    padding-top: 50px;
-}
-
-.customer-says-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   padding-left: 150px;
-   padding-right:100px;
-   gap:20px;
-}
-
-.customer-says h1{
-    height: 35px;
-    font-size: 40px;
-    color: #3b3b3b;
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
     
 }
 
-.customer-says .bulit-icon{
+
+
+/* customer section start */
+.customer-says {
+    background-image: url(images/client-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    height: auto;
+}
+
+.customer-says-whole {
+    padding-top: 50px;
+}
+
+.customer-says-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10%; 
+    padding-right: 10%;
+    gap: 20px;
+}
+
+.customer-says h1 {
+    height: auto;
+    font-size: 2.5rem;
+    color: #3b3b3b;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.customer-says .bulit-icon {
     display: block;
     margin: 0 auto;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
-.customer-container{
+.customer-container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-  gap: 100px;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 50px;
 }
-.customer-content h5{
-    font-size: 24px;
+
+.customer-content h5 {
+    font-size: 1.5rem;
     color: #3b3b3b;
     font-weight: bold;
-    margin: 0px;
+    margin: 0;
     margin-bottom: 10px;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
-.customer-content p{
-    font-size: 16px;
+.customer-content p {
+    font-size: 1rem;
     color: #3b3b3b;
-    line-height: 1.5rem;
-    margin: 0px;
+    line-height: 1.75rem;
+    margin: 0;
     width: 75%;
 }
-.customer-container .customer-image{
-    grid-column: 1/3;
+
+.customer-container .customer-image {
+    grid-column: 1 / 3;
 }
-.customer-container .customer-content{
-    grid-column: 3/12;
+
+.customer-container .customer-content {
+    grid-column: 3 / 12;
 }
+
+/* our blog section start */
 
 
 .our-blog h1 {
@@ -462,7 +397,7 @@ height: 100%;
 
 .our-blog-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
     gap: 30px;
     padding: 0 20px;
 }
@@ -550,8 +485,11 @@ height: 100%;
     color: #3b3b3b;
 }
 
+/* contact section start */
 .contact{
     display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
     justify-content: center;
     align-items: center;
 }
@@ -637,8 +575,9 @@ button:hover {
     background-color: #3b3b3b;
 }
 
-
+/* address section start */
 .address {
+    
     position: relative;
     background-image: url(images/img-2.png);
     background-position: center;
@@ -704,50 +643,37 @@ button:hover {
     
 }
 
+/* copyRight SectionStart */
 
-.copy-right-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d07d6b;
-    
-}
-
-.copyright-text{
-    font-size: 16px;
-    color:white;
-
-}
-
-
-.copy-right{
-    background-color: #d07d6b;
+.copy-right-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-    align-items: center;  
-   height: 80px;    
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap:40px;
+    background-color: #d98473;
+    padding: 30px;
+    color: white;
+    font-size: 1.5rem;
 }
 
 
-.copy-right-socialIcon ul{
+.copy-right-socialIcon {
     display: flex;
-    list-style: none;
-    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;   
+    flex: 1;
+    justify-content: center;
+    gap: 20px;
     
-    
+
 }
 
-.copy-right-socialIcon li{
-    text-decoration: none;
-    display: inline-block;
-    background-color: white;
+.copy-right-socialIcon a{
+    background-color: #ddd;
     padding: 10px;
-    border-radius: 25px;
-    
-} 
-
-
+    border-radius: 20px;
+    color:#f75b59;
+    font-size: 20px;
+}
 
 
 
